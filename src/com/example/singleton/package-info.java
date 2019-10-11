@@ -14,6 +14,9 @@
  * 防 反射和Unsafe对象构造实例 破坏:
  *   在单例模式的设计过程中，我们说过很关键的一点是一定要将构造器设计为私有构造器，因为这样可以防止从外部构造对象。但是这样真的就会安全吗，答案肯定是不一定的。我们知道通过反射我们可以获取类中的域、方法、构造器，可以修改他们的访问权限，这样可以通过反射构造对象。
  *   引用：https://blog.csdn.net/Wenlong_L/article/details/82811996
- * 参考：https://www.jianshu.com/p/3bfd916f2bb2
+ * 参考：
+ *   https://www.jianshu.com/p/3bfd916f2bb2
+ *   https://blog.csdn.net/itachi85/article/details/50510124
+ *   https://www.cnblogs.com/cielosun/p/6596475.html
  */
 package com.example.singleton;
