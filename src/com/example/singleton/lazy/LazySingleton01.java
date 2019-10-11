@@ -1,5 +1,9 @@
 package com.example.singleton.lazy;
 
+/**
+ * 单例模式——懒汉式
+ * 适用于单线程环境
+ */
 public class LazySingleton01 {
     private static LazySingleton01 singleton;
     private LazySingleton01(){}

@@ -1,5 +1,9 @@
 package com.example.singleton.hungry;
 
+/**
+ * 单例模式——饿汉式
+ *
+ */
 public class HungrySingleton01 {
     private static HungrySingleton01 singleton = new HungrySingleton01();
     private HungrySingleton01(){}
